@@ -1,14 +1,12 @@
 #include "main.h"
 
-
-
 /**
  *
- * * puts2 - prints a string, followed by a new line,
+ * puts2 - prints a string, followed by a new line,
  *
- * * @str: pointer to the string to print
+ * @str: pointer to the string to print
  *
- * * Return: void
+ * Return: void
  */
 
 void puts2(char *str)
@@ -19,7 +17,7 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 		{
-			_putchar(str[i])
+            		_putchar(str[i]);
 		}
 		i++;
 	}
