@@ -4,7 +4,7 @@
  *
  * print_rev - prints reversed string, followed by a new line
  *
- * @s: pointer to the string to print
+ * @s: input string to print
  *
  * Return: void
  */
@@ -12,13 +12,19 @@
 void print_rev(char *s)
 
 {
-	int i = 0;
+	int count = 0;
 
-	while (s[i]);
-	    i++;
-	while (i--)
+	while (*s != '\0' );
 	{
-		putchar(s[i]);
+	    	s++;
+	count++;
+	}
+
+	while (count > 0)
+	{
+		s--;
+		_putchar(*s);
+		count--;
 	}
 	putchar('\n');
 }
