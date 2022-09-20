@@ -1,9 +1,9 @@
 #include  "holberton.h"
 
 /**
- * print_rev - prints reversed string, followed by a new line
+ * print_rev - prints string
  * @s: input string to print
- *Return: void
+ * Return: no return
  */
 
 void print_rev(char *s)
